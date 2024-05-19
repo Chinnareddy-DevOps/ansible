@@ -1,0 +1,6 @@
+- name: varoables from arguments
+  hosts: localhost
+  tasks:
+  - name: get from arguments
+    ansible.biltin.bugs:
+      msg: "hello {{PERSON}}, Good {{WISHES}}""
