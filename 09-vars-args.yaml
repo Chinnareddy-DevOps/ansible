@@ -3,4 +3,4 @@
   tasks:
   - name: get from arguments
     ansible.biltin.bugs:
-      msg: "hello {{PERSON}}, Good {{WISHES}}""
+      msg: "hello {{PERSON}}, Good {{WISHES}}"
