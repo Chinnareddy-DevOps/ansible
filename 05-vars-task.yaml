@@ -1,12 +1,12 @@
 - name: variables
   hosts: localhost
-  vars: #play level
+  vars: #variable evel
     course: "teraform"
     trainer: "siva"
     duration: "10hrs"
   tasks:
   - name: print override information
-    vars: # overriding
+    vars: # task level
       course: "DevOps"
     ansible.builtin.debug:
       msg: "hi we are learning {{course}} from trainer {{trainer}}, duration is {{duration}}"
