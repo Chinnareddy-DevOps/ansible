@@ -1,7 +1,7 @@
 - name: variable prefenece
   hosts: localhost
-  vars:
-    WISHES: "morning from play variable"
+  # vars:
+  #   WISHES: "morning from play variable"
   vars_files:
     - vars.yaml
   # vars_prompt:
