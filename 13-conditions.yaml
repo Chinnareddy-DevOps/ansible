@@ -1,5 +1,5 @@
 - name: check number
-  hosts: localhost
+  hosts: web
   vars_prompt #prompts are always considered as text/string
   - name: number
     prompt: please enter nnumber
